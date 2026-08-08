@@ -67,7 +67,7 @@ export default function Home() {
       {/* 3. Feature Highlights Grid */}
       <section className="container mx-auto px-4 py-16">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-100">لماذا منصة عطاء؟</span>
+          <span className="px-3.5 py-1.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-100">لماذا منصة أثر؟</span>
           <h2 className="text-3xl font-extrabold text-slate-900 mt-3 mb-4">مميزات تجعل العمل الخيري أسرع وأكثر موثوقية</h2>
           <p className="text-slate-600">نعتمد على التكنولوجيا الحديثة لضمان كفاءة التوزيع وسرعة الاستجابة بين الأطراف المختلفة.</p>
         </div>
@@ -146,7 +146,7 @@ export default function Home() {
           <div className="relative z-10 max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-extrabold mb-4">هل لديك أشياء فائضة عن حاجتك؟</h2>
             <p className="text-emerald-100 text-lg mb-8 leading-relaxed">
-              لا تدع فائض مواردك يذهب هدرًا. انضم اليوم إلى منصة عطاء وساهم في رسم البسمة على وجه محتاج بضغطة زر واحدة.
+              لا تدع فائض مواردك يذهب هدرًا. انضم اليوم إلى منصة أثر وساهم في رسم البسمة على وجه محتاج بضغطة زر واحدة.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link 
