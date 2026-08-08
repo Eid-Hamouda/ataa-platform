@@ -10,7 +10,7 @@ export default function HowItWorksPage() {
           آلية العمل
         </span>
         <h1 className="text-3xl md:text-5xl font-extrabold text-slate-900 mt-4 mb-6 leading-tight">
-          كيف تحول منصة عطاء تبرعاتك إلى أثر حقيقي؟
+          كيف تحول منصة أثر تبرعاتك إلى أثر حقيقي؟
         </h1>
         <p className="text-slate-600 text-lg leading-relaxed">
           دورة عمل ذكية، مدروسة ومبسطة تضمن سهولة الإجراءات وسرعة الاستجابة لجميع أطراف المنظومة.

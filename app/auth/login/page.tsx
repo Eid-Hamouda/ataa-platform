@@ -41,10 +41,10 @@ export default function LoginPage() {
       
       <div className="w-full max-w-md animate-in fade-in slide-in-from-bottom-4 duration-700">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl mb-4 shadow-sm">
-            <HeartHandshake size={32} />
+          <div className="inline-flex items-center justify-center bg-emerald-100 text-emerald-600 rounded-2xl mb-4 shadow-sm">
+            <img src="/logo.png" alt="شعار أثر" className="w-40 h-40 object-contain" />
           </div>
-          <h1 className="text-3xl font-extrabold text-slate-900">مرحباً بك في منصة عطاء</h1>
+          <h1 className="text-3xl font-extrabold text-slate-900">مرحباً بك في منصة أثر</h1>
           <p className="text-sm text-slate-500 mt-2">سجل دخولك لمتابعة لوحة التحكم الخاصة بك</p>
         </div>
 

@@ -37,12 +37,9 @@ export function Navbar() {
   return (
     <header className="bg-white border-b border-slate-200 sticky top-0 z-50 shadow-xs">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-bold text-xl text-slate-900">
-          <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
-            <Heart size={22} />
-          </div>
-          عطاء
-        </Link>
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="شعار أثر" className="w-50 h-50 object-contain" />
+        </div>
 
         <nav className="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
           <Link href="/" className="hover:text-emerald-600 transition-colors">الرئيسية</Link>

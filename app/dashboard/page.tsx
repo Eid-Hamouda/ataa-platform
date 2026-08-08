@@ -359,7 +359,7 @@ export default function DashboardPage() {
       {isSidebarOpen && <div className="fixed inset-0 bg-slate-900/50 z-40 lg:hidden" onClick={() => setIsSidebarOpen(false)} />}
       <aside className={`fixed top-0 bottom-0 right-0 z-50 w-64 bg-white border-l border-slate-200 transition-transform duration-300 ease-in-out lg:translate-x-0 ${isSidebarOpen ? "translate-x-0" : "translate-x-full"} flex flex-col`}>
         <div className="p-6 border-b border-slate-100 flex justify-between items-center">
-          <h2 className="text-2xl font-extrabold text-emerald-600">عطاء</h2>
+          <img src="/logo.png" alt="شعار أثر" className="w-60 h-20 object-contain" />
           <button className="lg:hidden text-slate-500" onClick={() => setIsSidebarOpen(false)}><X size={24} /></button>
         </div>
         <div className="p-6 pb-2">
