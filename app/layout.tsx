@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/layout/Navbar";
+import Footer from "@/components/Footer";
+import AOSInit from "@/components/AOSInit";
 import 'leaflet/dist/leaflet.css';
 
 const cairo = Cairo({ 
@@ -23,9 +25,12 @@ export default function RootLayout({
   return (
     <html lang="ar" dir="rtl">
       <body className={`${cairo.variable} font-sans bg-slate-50 min-h-screen text-slate-900`}>
+        <AOSInit />
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
+      
     </html>
   );
 }
